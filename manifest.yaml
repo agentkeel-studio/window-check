@@ -1,5 +1,5 @@
 # Your agent's manifest (docs/developer/quickstart.md in agentkeel).
-i# Every seat is a GitHub login with access to this repository; the platform
+# Every seat is a GitHub login with access to this repository; the platform
 # check refuses a pull request while any is null. The guardrail is the
 # platform's: an agent from the template pins it as given (M06).
 name: window-check
