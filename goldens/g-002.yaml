@@ -1,0 +1,15 @@
+# Trap: the PVOD window has opened, but the holdback date has not passed. The 30-day arithmetic says yes; the table says 2027-05-03.
+id: g-002
+kind: trap
+question: >-
+  'Brackenfield Nine: The Tenth' opened in US cinemas on 2027-03-19, and its US PVOD window opened on 2027-04-15. PVOD usually follows theatrical by 30 days. Can we publish it on PVOD in the United States on 2027-04-20?
+expected:
+  table_row: r-016
+  clause_id: HS-2
+  answer_fields:
+    available: false
+    exclusive: true
+    constraints: [holdback]
+seat: Data Owner
+added: M07
+retired: null
